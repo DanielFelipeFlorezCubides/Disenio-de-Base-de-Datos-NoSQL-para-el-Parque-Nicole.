@@ -234,14 +234,18 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
 }
 ```
 
-### **Conclusiones y Desafíos:**
+### **Conclusiones y Desafíos:
 
 Se aplicaron criterios de eficiencia y escalabilidad al momento de decidir entre incrustar o referenciar datos. En general, se priorizó la incrustación para entidades que se consultan frecuentemente en conjunto, como los empleados dentro de atracciones o eventos. Se usó la referencia cuando era importante evitar duplicación o cuando los documentos podrían crecer mucho. Un desafío clave fue balancear el rendimiento con la integridad del diseño, especialmente en el caso del mantenimiento, donde se usó una combinación de ambas estrategias.
 
-### **Recursos Recomendados:**
+### **Recursos Recomendados:
 
 - Documentación oficial de MongoDB sobre Modelado de Datos:
   - [Data Model Design](https://www.mongodb.com/docs/manual/core/data-model-design/)
   - [Data Model Examples](https://www.mongodb.com/docs/manual/applications/data-models/)
 
 **Plazo de entrega 11 de junio a las 11:59 pm**
+
+### Authors
+- Daniel Felipe Florez Cubides
+- Mateo Paternina Mercado
