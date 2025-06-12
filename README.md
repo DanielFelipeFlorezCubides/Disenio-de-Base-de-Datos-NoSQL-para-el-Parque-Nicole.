@@ -37,7 +37,7 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
 
 ### **Análisis de Entidades y Propuesta de Modelo de Datos**
 
-#### 📁 **Colección: **``
+#### 📁 **Visitantes: **``
 
 - **Atributos Propuestos:**
 
@@ -47,7 +47,7 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
   - `email: String`
   - `historial_de_visitas: [ { fecha_visita: Date, hora_entrada: String } ]`
   - `tickets: [ { fecha_compra: Date, fecha_validez: Date, tipo_de_ticket: String, precio: Number } ]`
-  - `tickects_comprados: Number`
+  - `tickets_comprados: Number`
 
 - **Relaciones:**
 
@@ -84,7 +84,7 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
 
 ---
 
-#### 📁 **Colección: **``
+#### 📁 **Zonas del parque: **``
 
 - **Atributos Propuestos:**
 
@@ -113,7 +113,7 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
 
 ---
 
-#### 📁 **Colección: **``
+#### 📁 **Atracciones: **``
 
 - **Atributos Propuestos:**
 
@@ -159,7 +159,7 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
 
 ---
 
-#### 📁 **Colección: **``
+#### 📁 **Eventos: **``
 
 - **Atributos Propuestos:**
 
@@ -196,7 +196,7 @@ Para cada una de las entidades mencionadas (y cualquier otra que consideren rele
 
 ---
 
-#### 📁 **Colección: **``
+#### 📁 **Mantenimientos: **``
 
 - **Atributos Propuestos:**
 
